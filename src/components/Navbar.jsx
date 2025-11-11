@@ -31,7 +31,7 @@ export default function Navbar() {
     >
       {/* Left section */}
       <div className="flex items-center gap-3">
-        <img src="/logo.png" alt="Logo" className="h-8 w-8" />
+        <img src="/Mlogo.png" alt="Logo" className="h-8 rounded-full " />
         <span className="font-bold text-xl">API Health Monitor</span>
       </div>
 
@@ -60,7 +60,7 @@ export default function Navbar() {
           {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
         </button>
         <img
-          src="https://i.pravatar.cc/32"
+          src="logo.png"
           alt="User"
           className="h-8 w-8 rounded-full cursor-pointer"
         />
