@@ -70,14 +70,14 @@ export default function ApiCard({ api, pollingInterval = 10000 }) {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow p-4 hover:shadow-xl transition transform hover:scale-105 duration-300">
+    <div className=" rounded-2xl shadow p-4 hover:shadow-xl transition transform hover:scale-105 duration-300 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
       <h2 className="text-lg font-semibold">{api.name}</h2>
-      <p className="text-sm text-gray-500">{api.url}</p>
+      <p className="text-sm ">{api.url}</p>
 
       <div className="mt-3 flex justify-between items-center">
         {stats ? (
           <>
-            <div>
+            <div className="">
               <p>
                 Uptime:{" "}
                 <b className={stats.uptimePercent < 100 ? "text-red-500" : "text-green-500"}>
