@@ -1,6 +1,10 @@
 // src/components/Navbar.jsx
 import { useEffect, useState } from "react";
 import { Sun, Moon, Search, Menu, X } from "lucide-react";
+import mlogo from '/src/assets/Mlogo.png';
+import logo from '/src/assets/logo.png';
+
+
 
 export default function Navbar() {
   // const [darkMode, setDarkMode] = useState(false);
@@ -12,7 +16,7 @@ export default function Navbar() {
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
+      localStorage.setItem("theme", "dark")   ;
     } else {
       document.documentElement.classList.remove("dark");
       localStorage.setItem("theme", "light");
@@ -32,7 +36,8 @@ export default function Navbar() {
       {/* Left section */}
       <div className="flex items-center gap-3">
         <a href="/" className="flex items-center gap-2">
-          <img src="/Mlogo.png" alt="Logo" className="h-8 rounded-full " />
+          {/* <img src="/Mlogo.png" alt="Logo" /> */}
+          <img src={mlogo} alt="Logo" className="h-8 rounded-full " />
         </a>
         <span className="font-bold text-xl">Health Watch</span>
       </div>
@@ -74,7 +79,7 @@ export default function Navbar() {
           )}
         </button>
         <img
-          src="logo.png"
+          src={logo}
           alt="User"
           className="h-8 w-8 rounded-full cursor-pointer"
         />

@@ -1,28 +1,42 @@
 [
     {
         "id": 1,
-        "name": "BioAuth",
-        "url": "https://dr-esb.bankofabyssinia.com:8253/bioAuth/api/user/credential?attribute-name=MobileNumber&attribute-value=0941424344",
+        "name": "Payment API",
+        "url": "https://jsonplaceholder.typicode.com/posts/1",
         "httpMethod": "GET",
         "pollingIntervalSec": 60
     },
     {
         "id": 2,
-        "name": "JSONPlaceholder",
+        "name": "Name Check API",
         "url": "https://jsonplaceholder.typicode.com/posts/1",
         "httpMethod": "GET",
         "pollingIntervalSec": 60
     },
     {
         "id": 3,
-        "name": "JSONPlaceholder",
+        "name": "Credit Scoring API",
         "url": "https://jsonplaceholder.typicode.com/posts/1",
         "httpMethod": "GET",
         "pollingIntervalSec": 60
     },
     {
         "id": 4,
-        "name": "JSONPlaceholder",
+        "name": "Instant Payment API",
+        "url": "https://jsonplaceholder.typicode.com/posts/1",
+        "httpMethod": "GET",
+        "pollingIntervalSec": 60
+    },
+    {
+        "id": 5,
+        "name": "Universal payment API",
+        "url": "https://jsonplaceholder.typicode.com/posts/1",
+        "httpMethod": "GET",
+        "pollingIntervalSec": 60
+    },
+    {
+        "id": 6,
+        "name": "Remitance payment API",
         "url": "https://jsonplaceholder.typicode.com/posts/1",
         "httpMethod": "GET",
         "pollingIntervalSec": 60
