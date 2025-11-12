@@ -48,7 +48,7 @@ export default function Navbar() {
         <a href="#logs" className="hover:text-blue-500 transition">
           Logs
         </a>
-        <a href="#settings" className="hover:text-blue-500 transition">
+        <a href="/settings" className="hover:text-blue-500 transition">
           Settings
         </a>
       </div>
@@ -103,7 +103,7 @@ export default function Navbar() {
           <a href="#logs" onClick={() => setMenuOpen(false)}>
             Logs
           </a>
-          <a href="#settings" onClick={() => setMenuOpen(false)}>
+          <a href="/settings" onClick={() => setMenuOpen(false)}>
             Settings
           </a>
           <button

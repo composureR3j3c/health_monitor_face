@@ -1,0 +1,36 @@
+{ 
+    "1":[
+    {
+        "id": 1,
+        "api": {
+            "id": 1,
+            "name": "BioAuth",
+            "url": "https://dr-esb.bankofabyssinia.com:8253/bioAuth/api/user/credential?attribute-name=MobileNumber&attribute-value=0941424344",
+            "httpMethod": "GET",
+            "pollingIntervalSec": 60
+        },
+        "statusCode": 0,
+        "latencyMs": 21746,
+        "responseSnippet": "I/O error on GET request for \"https://dr-esb.bankofabyssinia.com:8253/bioAuth/api/user/credential\": Connection timed out: connect",
+        "timestamp": "2025-11-12T14:59:29.352669"
+    }
+],
+  "5": [
+    {
+      "id": 322,
+      "statusCode": 200,
+      "latencyMs": 635,
+      "responseSnippet": "{\"userId\":1,\"id\":1,\"title\":\"Demo response\"}",
+      "timestamp": "2025-11-10T13:49:53.844851"
+    }
+  ],
+  "6": [
+    {
+      "id": 400,
+      "statusCode": 500,
+      "latencyMs": 1200,
+      "responseSnippet": "{\"error\":\"Internal Server Error\"}",
+      "timestamp": "2025-11-10T13:52:12.211223"
+    }
+  ]
+}

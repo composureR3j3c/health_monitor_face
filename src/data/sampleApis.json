@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "BioAuth",
+        "url": "https://dr-esb.bankofabyssinia.com:8253/bioAuth/api/user/credential?attribute-name=MobileNumber&attribute-value=0941424344",
+        "httpMethod": "GET",
+        "pollingIntervalSec": 60
+    },
+    {
+        "id": 2,
+        "name": "JSONPlaceholder",
+        "url": "https://jsonplaceholder.typicode.com/posts/1",
+        "httpMethod": "GET",
+        "pollingIntervalSec": 60
+    },
+    {
+        "id": 3,
+        "name": "JSONPlaceholder",
+        "url": "https://jsonplaceholder.typicode.com/posts/1",
+        "httpMethod": "GET",
+        "pollingIntervalSec": 60
+    },
+    {
+        "id": 4,
+        "name": "JSONPlaceholder",
+        "url": "https://jsonplaceholder.typicode.com/posts/1",
+        "httpMethod": "GET",
+        "pollingIntervalSec": 60
+    }
+]

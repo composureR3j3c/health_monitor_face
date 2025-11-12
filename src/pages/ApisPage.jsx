@@ -49,7 +49,7 @@ export default function ApisPage() {
               <span
                 className={`text-xs  mt-2 block text-gray-500 dark:text-gray-400`}
               >
-                Method:{" "}
+                {isExpanded ? "Method:":" "}
                 <span
                   className={`${
                     api.httpMethod == "GET"
@@ -57,7 +57,7 @@ export default function ApisPage() {
                       : "text-yellow-500"
                   } font-semibold text-lg`}
                 >
-                  {api.httpMethod}
+                  {isExpanded ? api.httpMethod:""}
                 </span>
               </span>
             </li>
