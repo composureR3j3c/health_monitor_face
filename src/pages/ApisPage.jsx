@@ -18,7 +18,7 @@ export default function ApisPage() {
 
   return (
     <div className="p-6 bg-gray-50 dark:bg-[#0f1117]">
-      <h1 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+      <h1 className="text-2xl font-bold mb-4 text-teal-700 dark:text-teal-400">
         Monitored APIs
       </h1>
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">

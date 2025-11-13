@@ -50,12 +50,15 @@ export default function Navbar() {
         <a href="/" className="hover:text-blue-500 transition">
           Metrics
         </a>
-        <a href="#logs" className="hover:text-blue-500 transition">
+        <a href="/logs" className="hover:text-blue-500 transition">
           Logs
         </a>
         <a href="/settings" className="hover:text-blue-500 transition">
           Settings
         </a>
+         <a href="/description" className="hover:text-blue-500 transition">
+            About
+          </a>
       </div>
 
       {/* Search + Theme toggle */}
@@ -65,12 +68,12 @@ export default function Navbar() {
           <input
             type="text"
             placeholder="Search..."
-            className="pl-8 pr-3 py-1 rounded-md bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className="pl-8 pr-3 py-1 rounded-md bg-gray-100 text-black focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
         </div>
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="p-2 rounded-full bg-gray-200 dark:bg-darkBg hover:bg-gray-300 dark:hover:bg-gray-700 transition"
+          className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition"
         >
           {darkMode ? (
             <Sun className="w-5 h-5" />
@@ -79,7 +82,8 @@ export default function Navbar() {
           )}
         </button>
         <img
-          src={logo}
+          src="https://ui-avatars.com/api/?name=John+Doe&size=32&color=#fff"
+          // {logo}
           alt="User"
           className="h-8 w-8 rounded-full cursor-pointer"
         />
@@ -111,9 +115,12 @@ export default function Navbar() {
           <a href="/settings" onClick={() => setMenuOpen(false)}>
             Settings
           </a>
+           <a href="/description" onClick={() => setMenuOpen(false)}>
+            About
+          </a>
           <button
           onClick={() => setDarkMode(!darkMode)}
-          className="p-2 rounded-full bg-gray-200 dark:bg-darkBg hover:bg-gray-300 dark:hover:bg-gray-700 transition"
+          className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition"
         >
           {darkMode ? (
             <Sun className="w-5 h-5" />

@@ -50,7 +50,7 @@ export default function Settings() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 p-5">
       <div className="max-w-2xl mx-auto bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-8 shadow-lg">
-        <h1 className="text-3xl font-semibold text-yellow-500 mb-6 tracking-tight">
+        <h1 className="text-3xl font-semibold text-teal-700 dark:text-teal-400 mb-6 tracking-tight">
           ⚙️ Dashboard Settings
         </h1>
 
@@ -109,7 +109,7 @@ export default function Settings() {
           <div className="pt-4">
             <button
               onClick={handleSave}
-              className="w-full flex items-center justify-center gap-2 bg-yellow-500 text-gray-900 font-semibold rounded-lg py-2 hover:bg-yellow-400 transition"
+              className="w-full flex items-center justify-center gap-2 bg-teal-700 dark:bg-teal-400 dark:text-gray-900 text-gray-100 font-semibold rounded-lg py-2 hover:bg-yellow-400 transition"
             >
               <Save size={18} /> Save Changes
             </button>
